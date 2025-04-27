@@ -1,0 +1,11 @@
+id = "ld-scripts"
+name = "Linker Scripts"
+version = "0.0.1"
+schema_version = 1
+authors = ["Carmen <carmen@dotcarmen.dev>"]
+description = "Extension for linker (ld) scripts"
+repository = "https://github.com/dotcarmen/zed-ext-ld"
+
+[grammars.linkerscript]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-linkerscript"
+commit = "f99011a3554213b654985a4b0a65b3b032ec4621"

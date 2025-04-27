@@ -1,0 +1,4 @@
+name = "linker script"
+grammar = "linkerscript"
+path_suffixes = ["ld"]
+line_comments = ["// "]
